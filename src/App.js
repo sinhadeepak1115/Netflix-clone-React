@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import API_KEY from './requests'
+import Row  from './Row';
+import requests from './requests';
 
 function App() {
-  // console.log(process.env.REACT_APP_API_KEY)
-  console.log(API_KEY);
+  // console.log(API_KEY);
   return (
     <div className="App">
-      <h1>Hey lets bulid Netflix Front-End today.</h1>
+      <h1>Hey lets bulid Netflix Front-End today.🚀</h1>
+      <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
+      <Row title="Trending " fetchUrl={requests.fetchTrending}/>
     </div>
   );
 }
