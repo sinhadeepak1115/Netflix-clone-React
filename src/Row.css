@@ -1,5 +1,5 @@
-.row{
-    margin-left: 20px;
+.row {
+  margin-left: 20px;
 }
 .row__poster {
   object-fit: contain;
@@ -28,5 +28,5 @@
 }
 
 .row__posterLarge:hover {
-    transform: scale(1.09);
+  transform: scale(1.09);
 }
