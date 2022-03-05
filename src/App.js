@@ -7,7 +7,7 @@ import Banner from "./Banner";
 function App() {
   // console.log(API_KEY);
   return (
-    <div className="App">
+    <div className="app">
       <Banner />
       <Row
         title="Netflix Originals"
